@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="maple-bytes-common" />
+        <module name="maple-bytes-application-job" />
+        <module name="maple-bytes-application-controller" />
+        <module name="maple-bytes-domain" />
+        <module name="maple-bytes-infra" />
+        <module name="maple-bytes-starter" />
+        <module name="maple-bytes-application-mq" />
+        <module name="maple-bytes-subjects-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
