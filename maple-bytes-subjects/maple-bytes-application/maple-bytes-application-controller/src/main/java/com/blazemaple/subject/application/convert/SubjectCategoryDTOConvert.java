@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @author BlazeMaple
- * @description
+ * @description 题目分类DTO转换类
  * @date 2024/1/18 21:50
  */
 @Mapper
