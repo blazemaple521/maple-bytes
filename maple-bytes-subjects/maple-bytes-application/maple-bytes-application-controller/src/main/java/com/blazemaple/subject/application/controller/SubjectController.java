@@ -6,6 +6,7 @@ import com.blazemaple.subject.application.convert.SubjectCategoryDTOConvert;
 import com.blazemaple.subject.application.convert.SubjectInfoDTOConvert;
 import com.blazemaple.subject.application.dto.SubjectCategoryDTO;
 import com.blazemaple.subject.application.dto.SubjectInfoDTO;
+import com.blazemaple.subject.common.entity.PageResult;
 import com.blazemaple.subject.common.entity.Result;
 import com.blazemaple.subject.domain.entity.SubjectAnswerBO;
 import com.blazemaple.subject.domain.entity.SubjectCategoryBO;
@@ -65,6 +66,48 @@ public class SubjectController {
         } catch (Exception e) {
             log.error("add subject error, error: {}", e.getMessage(), e);
             return Result.fail("新增题目失败");
+        }
+    }
+
+    /**
+     * 查询题目列表
+     */
+    @PostMapping("/getSubjectPage")
+    public Result<PageResult<SubjectInfoDTO>> getSubjectPage(@RequestBody SubjectInfoDTO subjectInfoDTO) {
+        try {
+            if (log.isInfoEnabled()) {
+                log.info("getSubjectPage, subjectInfoDTO: {}", JSON.toJSONString(subjectInfoDTO));
+            }
+            Preconditions.checkNotNull(subjectInfoDTO.getCategoryId(), "分类id不能为空");
+            Preconditions.checkNotNull(subjectInfoDTO.getLabelId(), "标签id不能为空");
+            SubjectInfoBO subjectInfoBO = SubjectInfoDTOConvert.INSTANCE.convertDtoToInfoBo(subjectInfoDTO);
+            subjectInfoBO.setPageNo(subjectInfoDTO.getPageNo());
+            subjectInfoBO.setPageSize(subjectInfoDTO.getPageSize());
+            PageResult<SubjectInfoBO> boPageResult = subjectInfoDomainService.getSubjectPage(subjectInfoBO);
+            PageResult<SubjectInfoDTO> dtoPageResult = SubjectInfoDTOConvert.INSTANCE.convertBoPageResultToInfoDtoPageResult(
+                boPageResult);
+            return Result.ok(dtoPageResult);
+        } catch (Exception e) {
+            log.error("getSubjectPage error, error: {}", e.getMessage(), e);
+            return Result.fail("分页查询题目失败");
+        }
+    }
+
+
+    @PostMapping("/querySubjectInfo")
+    public Result<SubjectInfoDTO> querySubjectInfo(@RequestBody SubjectInfoDTO subjectInfoDTO) {
+        try {
+            if (log.isInfoEnabled()) {
+                log.info("querySubjectInfo, subjectInfoDTO: {}", JSON.toJSONString(subjectInfoDTO));
+            }
+            Preconditions.checkNotNull(subjectInfoDTO.getId(), "题目id不能为空");
+            SubjectInfoBO subjectInfoBO = SubjectInfoDTOConvert.INSTANCE.convertDtoToInfoBo(subjectInfoDTO);
+            SubjectInfoBO infoResultBO = subjectInfoDomainService.querySubjectInfo(subjectInfoBO);
+            SubjectInfoDTO infoResultDTO = SubjectInfoDTOConvert.INSTANCE.convertBoToInfoDto(infoResultBO);
+            return Result.ok(infoResultDTO);
+        } catch (Exception e) {
+            log.error("querySubjectInfo error, error: {}", e.getMessage(), e);
+            return Result.fail("查询题目详情失败");
         }
     }
 
