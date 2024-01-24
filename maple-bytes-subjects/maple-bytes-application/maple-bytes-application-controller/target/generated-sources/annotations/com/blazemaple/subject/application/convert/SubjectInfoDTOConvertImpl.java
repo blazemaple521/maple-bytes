@@ -11,7 +11,7 @@ import javax.annotation.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-01-23T17:02:59+0800",
+    date = "2024-01-24T14:49:41+0800",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 1.8.0_371 (Oracle Corporation)"
 )
 public class SubjectInfoDTOConvertImpl implements SubjectInfoDTOConvert {
