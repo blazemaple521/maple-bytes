@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author BlazeMaple
- * @description
+ * @description 题目标签DomainService实现类
  * @date 2024/1/21 16:07
  */
 @Service
@@ -79,8 +79,7 @@ public class SubjectLabelDomainServiceImpl implements SubjectLabelDomainService 
             List<SubjectLabelBO> labelResultList = SubjectLabelConvert.INSTANCE.convertToLabelBoList(labelList);
             return labelResultList;
         }
-
-
+        //如果当前分类是2级分类，则查询当前分类下的标签
         Long categoryId = subjectLabelBO.getCategoryId();
         SubjectMapping subjectMapping = new SubjectMapping();
         subjectMapping.setCategoryId(categoryId);

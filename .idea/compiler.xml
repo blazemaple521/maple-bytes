@@ -7,14 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="maple-bytes-oss" />
         <module name="maple-bytes-common" />
-        <module name="maple-bytes-application-job" />
         <module name="maple-bytes-application-controller" />
+        <module name="maple-bytes-auth-application-mq" />
         <module name="maple-bytes-domain" />
-        <module name="maple-bytes-infra" />
         <module name="maple-bytes-starter" />
+        <module name="maple-bytes-auth-infra" />
         <module name="maple-bytes-application-mq" />
+        <module name="maple-bytes-gateway" />
         <module name="maple-bytes-subjects-api" />
+        <module name="maple-bytes-auth-starter" />
+        <module name="maple-bytes-application-job" />
+        <module name="maple-bytes-auth-application-job" />
+        <module name="maple-bytes-infra" />
+        <module name="maple-bytes-auth-common" />
+        <module name="maple-bytes-auth-application-controller" />
+        <module name="maple-bytes-auth-domain" />
+        <module name="maple-bytes-auth-api" />
       </profile>
     </annotationProcessing>
   </component>

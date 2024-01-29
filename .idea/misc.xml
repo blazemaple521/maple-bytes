@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/maple-bytes-subjects/pom.xml" />
+        <option value="$PROJECT_DIR$/maple-bytes-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/maple-bytes-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/maple-bytes-gateway/pom.xml" />
       </list>
     </option>
   </component>

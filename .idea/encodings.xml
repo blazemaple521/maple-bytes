@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/maple-bytes-auth-application-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/maple-bytes-auth-application-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/maple-bytes-auth-application-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/maple-bytes-auth-application-job/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/maple-bytes-auth-application-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/maple-bytes-auth-application-mq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-infra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-infra/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/maple-bytes-auth-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-oss/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/maple-bytes-oss/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maple-bytes-subjects/maple-bytes-application/maple-bytes-application-controller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maple-bytes-subjects/maple-bytes-application/maple-bytes-application-controller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/maple-bytes-subjects/maple-bytes-application/maple-bytes-application-job/src/main/java" charset="UTF-8" />
