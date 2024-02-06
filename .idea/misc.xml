@@ -8,8 +8,10 @@
         <option value="$PROJECT_DIR$/maple-bytes-oss/pom.xml" />
         <option value="$PROJECT_DIR$/maple-bytes-auth/pom.xml" />
         <option value="$PROJECT_DIR$/maple-bytes-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/maple-bytes-wx/pom.xml" />
       </list>
     </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

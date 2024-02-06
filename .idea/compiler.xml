@@ -25,6 +25,7 @@
         <module name="maple-bytes-auth-application-controller" />
         <module name="maple-bytes-auth-domain" />
         <module name="maple-bytes-auth-api" />
+        <module name="maple-bytes-wx" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,0 +1,7 @@
+com\blazemaple\subject\common\enums\IsDeletedFlagEnum.class
+com\blazemaple\subject\common\enums\SubjectInfoTypeEnum.class
+com\blazemaple\subject\common\entity\PageResult.class
+com\blazemaple\subject\common\entity\PageInfo.class
+com\blazemaple\subject\common\entity\Result.class
+com\blazemaple\subject\common\enums\ResultCodeEnum.class
+com\blazemaple\subject\common\enums\CategoryTypeEnum.class
