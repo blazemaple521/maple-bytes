@@ -5,7 +5,7 @@ import com.blazemaple.wx.handler.WxChatMsgHandler;
 import com.blazemaple.wx.util.MessageUtil;
 import com.blazemaple.wx.util.SHA1;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
